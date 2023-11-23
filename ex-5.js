@@ -1,3 +1,6 @@
-//Exercise #5: Shopping and Discount
+let totalPrice = 27000;
+let discountPercentage = 25;
+let discountAmount = (discountPercentage / 100) * totalPrice;
+let finalPrice = totalPrice - discountAmount;
 
-// Start coding here
+console.log(finalPrice);
